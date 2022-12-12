@@ -1,0 +1,9 @@
+name: merge-ttls
+run-name: Merging TTLs
+on: [push]
+jobs:
+  merge-ttl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo 'workflow works'
