@@ -1,0 +1,63 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung>
+    a dcat:Dataset ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+    dcatde:maintainer [ a foaf:Agent ;
+        foaf:mbox "opendata@rki.de" ;
+        foaf:name "Robert Koch-Institut | Open Data Team"
+      ] ;
+    dct:contributor [
+          a foaf:Agent;
+          foaf:name "Matthias an der Heiden";
+      ],[
+          a foaf:Agent;
+          foaf:name "Justus Benzler";
+      ],[
+          a foaf:Agent;
+          foaf:name "Hannes Wuensche";
+      ];
+    dct:description "Das Nowcasting erstellt eine Schätzung des Verlaufs der Anzahl von bereits erfolgten SARS-CoV-2-Erkrankungsfällen in Deutschland unter Berücksichtigung des Diagnose-, Melde- und Übermittlungsverzugs. Aufbauend auf dem Nowcasting kann eine Schätzung der zeitabhängigen Reproduktionszahl R (oder R-Wert) durchgeführt werden. Die Reproduktionszahl beschreibt, wie viele Menschen eine infizierte Person im Mittel ansteckt. Sie kann nicht alleine als Maß für die Notwendigkeit und Wirksamkeit von Maßnahmen herangezogen werden. Wichtig sind außerdem u.a. die absolute Zahl der täglichen Neuinfektionen sowie die Schwere der Erkrankungen. Die absolute Zahl der Neuinfektionen muss klein genug sein, um eine effektive Kontaktpersonennachverfolgung zu ermöglichen, und die Zahl der schweren Erkrankungen klein genug, um die Kapazitäten an Intensivbetten nicht zu überlasten." ;
+    dct:issued "2021-07-20T00:00:00"^^xsd:dateTime ;
+    dct:modified "2021-08-17T06:25:05.371498"^^xsd:dateTime ;
+    dct:publisher [ a foaf:Organization ;
+                    foaf:mbox "opendata@rki.de" ;
+                    foaf:name "Robert Koch-Institut | MF 4 - Forschungsdatenmanagement"
+      ] ;
+    dct:title "SARS-CoV-2-Nowcasting und -R-Schätzung" ;
+    dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+      ] ;
+    dcat:distribution [
+          a dcat:Distribution ;
+          dcatde:licenseAttributionByText "an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:10.5281/zenodo.7546688." ;
+          dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+          dct:description "Die Tabelle des Nowcastings und der R-Schätzung wird jeden Tag um die Zeile der Daten des vergangenen Tages erweitert. Die Fallzahlenschätzungen und R-Wert-Angaben bilden einen tagesaktuellen Stand (00:00 Uhr) ab. Die Schätzwerte zur Anzahl von Neuerkrankungen und der R-Schätzung zu früheren Tagen können von den Angaben in früheren Versionen der Tabelle abweichen, weil täglich der Gesamtverlauf, aufgrund der aktuell verfügbaren Daten, neu geschätzt wird." ;
+          dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+          dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+          dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+          dct:title "Nowcast_R_aktuell.csv" ;
+          dcat:accessURL <https://raw.githubusercontent.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung/main/Nowcast_R_aktuell.csv>;
+      ];
+    dcat:keyword "COVID-19",
+    "Coronavirus",
+    "Deutschland",
+    "Nowcast",
+    "infektion",
+    "sars-cov-2";
+    dcat:landingPage <https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+    <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+    <http://publications.europa.eu/resource/authority/data-theme/TECH> .
+
