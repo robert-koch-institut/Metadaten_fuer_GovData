@@ -10,13 +10,13 @@ jobs:
       - name: debug ls
         run: ls
       - name: find Namespaces in a random ttl file which is not 'all.ttl' and add it to 'all.ttl'
-        run: find -type f -name 'Datensaetze/*.ttl' | head -n 1 | xargs grep -h '@prefix' > RKI_DCAT-AP.ttl
+        run: find ./Datensaetze/*.ttl -type f | head -n 1 | xargs grep -h '@prefix' > RKI_DCAT-AP.ttl
       - name: debug prefixes
         run: cat RKI_DCAT-AP.ttl
       - name: ebug2
-        run: find -type f -name 'Datensaetze/*.ttl' | head -n 1 | xargs grep -h '@prefix'
+        run: find ./Datensaetze/*.ttl | head -n 1 | xargs grep -h '@prefix'
       - name: Merge content of all ttl files and append it to 'RKI_DCAT-AP.tll'
-        run: find -type f -name 'Datensaetze/*.ttl' | xargs grep -vh '@prefix' >> RKI_DCAT-AP.ttl
+        run: find ./Datensaetze/*.ttl | xargs grep -vh '@prefix' >> RKI_DCAT-AP.ttl
       - name: debug whole file
         run: cat RKI_DCAT-AP.ttl
       - name: Add and Commit Changes
