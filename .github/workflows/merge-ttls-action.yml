@@ -7,18 +7,10 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: debug ls
-        run: ls
       - name: find Namespaces in a random ttl file which is not 'all.ttl' and add it to 'all.ttl'
         run: find ./Datensaetze/*.ttl -type f | head -n 1 | xargs grep -h '@prefix' > RKI_DCAT-AP.ttl
-      - name: debug prefixes
-        run: cat RKI_DCAT-AP.ttl
-      - name: ebug2
-        run: find ./Datensaetze/*.ttl | head -n 1 | xargs grep -h '@prefix'
       - name: Merge content of all ttl files and append it to 'RKI_DCAT-AP.tll'
         run: find ./Datensaetze/*.ttl | xargs grep -vh '@prefix' >> RKI_DCAT-AP.ttl
-      - name: debug whole file
-        run: cat RKI_DCAT-AP.ttl
       - name: Add and Commit Changes
         uses: EndBug/add-and-commit@v9.0.1
         with:
