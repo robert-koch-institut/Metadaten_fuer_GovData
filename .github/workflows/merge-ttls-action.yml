@@ -4,14 +4,16 @@ on: [push]
 jobs:
   merge-ttl:
     runs-on: ubuntu-latest
+    env:
+      destination_file: RKI_DCAT-AP.ttl
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: find Namespaces in a random ttl file which is not 'all.ttl' and add it to 'all.ttl'
-        run: find ./Datensaetze/*.ttl -type f | head -n 1 | xargs grep -h '@prefix' > RKI_DCAT-AP.ttl
-      - name: Merge content of all ttl files and append it to 'RKI_DCAT-AP.tll'
-        run: find ./Datensaetze/*.ttl | xargs grep -vh '@prefix' >> RKI_DCAT-AP.ttl
+        run: find ./Datensaetze/*.ttl -type f | head -n 1 | xargs grep -h '@prefix' > $destination_file
+      - name: Merge content of all ttl files and append it to destination file
+        run: find ./Datensaetze/*.ttl | xargs grep -vh '@prefix' >> $destination_file
       - name: Add and Commit Changes
         uses: EndBug/add-and-commit@v9.0.1
         with:
-          message: 'updates file RKI_DCAT-AP.ttl'
+          message: 'updates file $destination_file'
