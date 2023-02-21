@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: find Namespaces in a random ttl file which is not 'all.ttl' and add it to 'all.ttl'
+      - name: find Namespaces in a random ttl file and add it to a new merged ttl file
         run: find ./Datensaetze/*.ttl -type f | head -n 1 | xargs grep -h '@prefix' > $destination_file
       - name: Merge content of all ttl files and append it to destination file
         run: find ./Datensaetze/*.ttl | xargs grep -vh '@prefix' >> $destination_file
