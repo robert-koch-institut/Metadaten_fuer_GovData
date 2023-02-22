@@ -5,7 +5,7 @@ jobs:
   merge-ttl:
     runs-on: ubuntu-latest
     env:
-      destination_file: Robert_Koch-Instituit_DCAT-AP-DE.ttl
+      destination_file: Robert_Koch-Institut_DCAT-AP-DE.ttl
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
