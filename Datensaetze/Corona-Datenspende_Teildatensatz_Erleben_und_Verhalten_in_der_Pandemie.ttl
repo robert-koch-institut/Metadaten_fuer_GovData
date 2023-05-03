@@ -6,7 +6,7 @@
               @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-              <10.5281/zenodo.7185199> a dcat:Dataset ;
+              <https://zenodo.org/record/7185199> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Marc Wiedermann"; foaf:account <http://orcid.org/0000-0001-9869-3789>; ],[ a foaf:Person; foaf:name "Philipp Sprengholz"; foaf:account <http://orcid.org/0000-0002-9925-1920>; ],[ a foaf:Person; foaf:name "Dirk Brockmann"; foaf:account <http://orcid.org/0000-0001-5708-2922>; ];
@@ -51,7 +51,7 @@
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie" ;
-                    dcat:accessURL <https://doi.org/10.5281/zenodo.7185199>;
+                    dcat:accessURL <https://zenodo.org/record/7185199>;
                     dct:modified "2022-10-11T13:44:04+02:00"^^xsd:dateTime;
                   ],
                   [
