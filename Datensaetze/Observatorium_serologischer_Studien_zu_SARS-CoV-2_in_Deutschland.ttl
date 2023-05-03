@@ -6,7 +6,7 @@
               @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-              <10.5281/zenodo.7043025> a dcat:Dataset ;
+              <https://zenodo.org/record/7043025> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Hannelore Neuhauser"; foaf:account <http://orcid.org/0000-0002-6605-6221>; ],[ a foaf:Person; foaf:name "Nina Buttmann-Schweiger"; foaf:account <http://orcid.org/0000-0001-6946-635X>; ],[ a foaf:Person; foaf:name "Julia Fiebig" ],[ a foaf:Person; foaf:name "Christina Poethko-Müller" ],[ a foaf:Person; foaf:name "Franziska Prütz" ],[ a foaf:Person; foaf:name "Giselle Sarganas Margolis" ],[ a foaf:Person; foaf:name "Roma Thamm" ],[ a foaf:Person; foaf:name "Marlow Zimmermann"; foaf:account <http://orcid.org/0000-0002-9249-9077>; ];
@@ -51,7 +51,7 @@
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - Observatorium serologischer Studien zu SARS-CoV-2 in Deutschland" ;
-                    dcat:accessURL <https://doi.org/10.5281/zenodo.7043025>;
+                    dcat:accessURL <https://zenodo.org/record/7043025>;
                     dct:modified "2022-09-02T09:06:09+02:00"^^xsd:dateTime;
                   ],
                   [
