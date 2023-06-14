@@ -1,0 +1,68 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <https://zenodo.org/record/7680569> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Organization; foaf:name "Robert Koch-Institut" ],[ a foaf:Organization; foaf:name "Umweltbundesamt" ];
+                  dct:description "Derzeit wird in Deutschland zur Überwachung der Poliofreiheit eine syndromische Surveillance hospitalisierter Patienten mit aseptischer Meningitis/Enzephalitis und akuter schlaffer Paresen durchgeführt (Enterovirus-Surveillance, EVSurv). In der Endphase der Polioeradikation könnte jedoch zusätzlich auch die virologische Untersuchung von Abwasserproben als Frühwarnsystem eine größere Rolle spielen. Um auf die perspektivischen Veränderungen der WHO-Anforderungen adäquat reagieren zu können, wurde am NRZ PE im Rahmen eines laufenden Pilotprojekts eine Methode zum sicheren Nachweis von Polioviren aus Abwassserproben etabliert. Diese Machbarkeitsstudie erfolgt in enger Kooperation mit dem Umweltbundesamt (UBA). Seit Mai 2021 werden wöchentlich Abwasserproben aus mehreren Klärwerken einer deutschen Großstadt auf Polioviren untersucht. Dabei liefert die Anzucht auf verschiedenen Zelllinien (RD, L20B) mit anschließender Sequenzierung der proteinkodierenden VP1 Region die besten Ergebnisse." ;
+                  dct:issued "2023-06-14T08:24:16+02:00"^^xsd:dateTime ;
+                  dct:modified "2023-06-14T08:24:16+02:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "Polioviren im Abwasser - PIA" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/Polioviren_im_Abwasser-PIA>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "Frühwarnsystem","Early warning system","Polioviruses","Poliovirus","Poliovirus Vaccines","Poliomyelitis","Abwasserbasierte epidemiologische Überwachung","Wastewater-Based Epidemiological Monitoring","Sewage","Abwasser","Environmental Monitoring","Umweltüberwachung","Gesundheitsberichterstattung","Epidemiologie","Public health surveillance","Epidemiology","Open Data","Offene Daten","Deutschland","Germany","RKI";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut und Umweltbundesamt (2023): Polioviren im Abwasser - PIA, Berlin: Zenodo. DOI:10.5281/zenodo.7680569" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Github - Polioviren im Abwasser - PIA" ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/Polioviren_im_Abwasser-PIA>;
+                    dct:modified "2023-06-14T08:24:16+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut und Umweltbundesamt (2023): Polioviren im Abwasser - PIA, Berlin: Zenodo. DOI:10.5281/zenodo.7680569" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Zenodo - Polioviren im Abwasser - PIA" ;
+                    dcat:accessURL <https://zenodo.org/record/7680569>;
+                    dct:modified "2023-06-14T08:24:16+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] Polioviren_im_Abwasser_-_PIA.pdf" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut und Umweltbundesamt (2023): Polioviren im Abwasser - PIA, Berlin: Zenodo. DOI:10.5281/zenodo.7680569" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Polioviren im Abwasser - PIA' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://zenodo.org/record/7680569/files/%5BDokumentation%5D_Polioviren_im_Abwasser-PIA.pdf>;
+                    dct:modified "2023-06-14T08:24:16+02:00"^^xsd:dateTime;
+                  ].
