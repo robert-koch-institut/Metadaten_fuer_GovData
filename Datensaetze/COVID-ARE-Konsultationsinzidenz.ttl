@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Luise Goerlitz" ],[ a foaf:Person; foaf:name "Kristin Tolksdorf"; foaf:account <http://orcid.org/0000-0002-8712-6399>; ],[ a foaf:Person; foaf:name "Kerstin Prahm" ],[ a foaf:Person; foaf:name "Ute Preuß" ],[ a foaf:Person; foaf:name "Walter Haas"; foaf:account <http://orcid.org/0000-0003-3413-1431>; ],[ a foaf:Person; foaf:name "Silke Buda"; foaf:account <http://orcid.org/0000-0003-3448-3357>; ];
                   dct:description "Zur Einschätzung der Krankheitslast symptomatischer Atemwegsinfektionen im ambulanten Bereich wird die Inzidenz der Arztbesuche wegen einer akuten respiratorischen Erkrankung mit zusätzlicher COVID-19-Diagnose pro 100.000 Einwohner mithilfe von Daten aus dem SEED(ARE)-Modul der Arbeitsgemeinschaft Influenza wöchentlich berechnet (COVID-ARE-Konsultationsinzidenz). Zeitnahe und valide Daten über die Häufigkeit von akuten Atemwegserkrankungen mit COVID-19 sind essenziell für die Einschätzung der epidemiologischen Lage und die Anpassung der Maßnahmen während der COVID-19-Pandemie." ;
-                  dct:issued "2023-06-22T11:00:03+02:00"^^xsd:dateTime ;
-                  dct:modified "2023-06-22T11:00:03+02:00"^^xsd:dateTime ;
+                  dct:issued "2023-06-29T11:00:03+02:00"^^xsd:dateTime ;
+                  dct:modified "2023-06-29T11:00:03+02:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Goerlitz, Luise et. al. (2023): COVID-ARE-Konsultationsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.8069453" ;
+                    dcatde:licenseAttributionByText "Goerlitz, Luise et. al. (2023): COVID-ARE-Konsultationsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.8094656" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - COVID-ARE-Konsultationsinzidenz" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/COVID-ARE-Konsultationsinzidenz>;
-                    dct:modified "2023-06-22T11:00:03+02:00"^^xsd:dateTime;
+                    dct:modified "2023-06-29T11:00:03+02:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Goerlitz, Luise et. al. (2023): COVID-ARE-Konsultationsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.8069453" ;
+                    dcatde:licenseAttributionByText "Goerlitz, Luise et. al. (2023): COVID-ARE-Konsultationsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.8094656" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - COVID-ARE-Konsultationsinzidenz" ;
                     dcat:accessURL <https://zenodo.org/record/7804975>;
-                    dct:modified "2023-06-22T11:00:03+02:00"^^xsd:dateTime;
+                    dct:modified "2023-06-29T11:00:03+02:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] COVID-ARE-Konsultationsinzidenz.pdf" ;
-                    dcatde:licenseAttributionByText "Goerlitz, Luise et. al. (2023): COVID-ARE-Konsultationsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.8069453" ;
+                    dcatde:licenseAttributionByText "Goerlitz, Luise et. al. (2023): COVID-ARE-Konsultationsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.8094656" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'COVID-ARE-Konsultationsinzidenz' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/7804975/files/%5BDokumentation%5D_COVID-ARE-Konsultationsinzidenz.pdf>;
-                    dct:modified "2023-06-22T11:00:03+02:00"^^xsd:dateTime;
+                    dct:modified "2023-06-29T11:00:03+02:00"^^xsd:dateTime;
                   ].
