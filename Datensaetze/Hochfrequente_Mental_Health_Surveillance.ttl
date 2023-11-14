@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Stephan Junker"; foaf:account <http://orcid.org/0000-0001-8612-9347>; ],[ a foaf:Person; foaf:name "Stefan Damerow"; foaf:account <http://orcid.org/0000-0002-7265-1123>; ],[ a foaf:Person; foaf:name "Lena Walther"; foaf:account <http://orcid.org/0000-0002-2703-5022>; ],[ a foaf:Person; foaf:name "Elvira Mauz"; foaf:account <http://orcid.org/0000-0003-1988-9789>; ];
                   dct:description "Im Rahmen der Mental Health Surveillance (MHS) am Robert Koch-Institut (RKI) werden für eine Auswahl an Indikatoren der psychischen Gesundheit von Erwachsenen basierend auf Surveydaten Zeitreihen bestehend aus gleitenden Drei-Monats-Schätzern und Glättungskurven berechnet. Dadurch sollen Entwicklungen in der psychischen Gesundheit der erwachsenen Bevölkerung in Deutschland mit möglichst geringem Zeitverzug beobachtet und insbesondere negative Entwicklungen frühzeitig erkannt werden. Diese hochfrequente Surveillance wurde ursprünglich vor dem Hintergrund neuer Informationsbedarfe zur Entwicklung der psychischen Gesundheit der Bevölkerung in der COVID-19-Pandemie entwickelt." ;
-                  dct:issued "2023-10-20T10:51:43+02:00"^^xsd:dateTime ;
-                  dct:modified "2023-10-16T08:13:38+02:00"^^xsd:dateTime ;
+                  dct:issued "2023-11-14T16:10:43+01:00"^^xsd:dateTime ;
+                  dct:modified "2023-11-14T09:10:09+01:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Junker, Stephan et. al. (2023): Hochfrequente Mental Health Surveillance, Berlin: Zenodo. DOI:Currently/no/DOI/available" ;
+                    dcatde:licenseAttributionByText "Junker, Stephan et. al. (2023): Hochfrequente Mental Health Surveillance, Berlin: Zenodo. DOI:10.5281/zenodo.10125111" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - Hochfrequente Mental Health Surveillance" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/Hochfrequente_Mental_Health_Surveillance>;
-                    dct:modified "2023-10-20T10:51:43+02:00"^^xsd:dateTime;
+                    dct:modified "2023-11-14T09:10:09+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Junker, Stephan et. al. (2023): Hochfrequente Mental Health Surveillance, Berlin: Zenodo. DOI:Currently/no/DOI/available" ;
+                    dcatde:licenseAttributionByText "Junker, Stephan et. al. (2023): Hochfrequente Mental Health Surveillance, Berlin: Zenodo. DOI:10.5281/zenodo.10125111" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - Hochfrequente Mental Health Surveillance" ;
                     dcat:accessURL <https://zenodo.org/record/8246796>;
-                    dct:modified "2023-10-20T10:51:43+02:00"^^xsd:dateTime;
+                    dct:modified "2023-11-14T09:10:09+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] Hochfrequente_Mental_Health_Surveillance.pdf" ;
-                    dcatde:licenseAttributionByText "Junker, Stephan et. al. (2023): Hochfrequente Mental Health Surveillance, Berlin: Zenodo. DOI:Currently/no/DOI/available" ;
+                    dcatde:licenseAttributionByText "Junker, Stephan et. al. (2023): Hochfrequente Mental Health Surveillance, Berlin: Zenodo. DOI:10.5281/zenodo.10125111" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Hochfrequente Mental Health Surveillance' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/8246796/files/%5BDokumentation%5D_Hochfrequente_Mental_Health_Surveillance.pdf>;
-                    dct:modified "2023-10-20T10:51:43+02:00"^^xsd:dateTime;
+                    dct:modified "2023-11-14T09:10:09+01:00"^^xsd:dateTime;
                   ].
