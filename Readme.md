@@ -6,7 +6,7 @@ Nordufer 20
 
 ## Einleitung
 
-Das Repository stellt die Metadaten der RKI Open Data für den Import in [GovData.de](https://GovData.de) bereit. Die Metadaten werden bei Aktualisierung in den Datensätzen automatisch im Repository hinterlegt und in der [`RKI_DCAT-AP.ttl`](RKI_DCAT-AP.ttl) zusammengeführt. 
+Das Repository stellt die Metadaten der RKI Open Data für den Import in [GovData.de](https://GovData.de) bereit. Die Metadaten werden bei Aktualisierung in den Datensätzen automatisch im Repository hinterlegt und in der [`Robert_Koch-Institut_DCAT-AP-DE.ttl`](Robert_Koch-Institut_DCAT-AP-DE.ttl) zusammengeführt. 
 
 DCAT-AP.de ist die deutsche Adaption des „Data Catalogue Application Profile“ [(DCAT-AP)](https://github.com/SEMICeu/DCAT-AP) für Datenportale in Europa[[1]](https://github.com/GovDataOfficial/DCAT-AP.de).
 
