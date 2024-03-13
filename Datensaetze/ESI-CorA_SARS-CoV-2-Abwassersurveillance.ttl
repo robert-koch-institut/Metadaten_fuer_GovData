@@ -1,0 +1,68 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <https://zenodo.org/record/10781653> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Person; foaf:name "Fachgebiet 32 Robert Koch-Institut" ];
+                  dct:description "<p>Das Vorhaben „Emergency Support Instrument - Nachweis von SARS-CoV-2 im Abwasser“ (ESI-CorA) lief von November 2021 bis März 2023. Zwanzig Kläranlagenstandorte wurden in Deutschland ausgewählt, die im Februar 2022 gestaffelt mit der Überwachung von SARS-CoV-2 im Abwasser begonnen haben. Das zentrale Ziel in ESI-CorA war die Vorbereitung und Durchführung der bundesweiten Pilotphase zur Überwachung von SARS-CoV-2 und seiner Varianten im Abwasser. Unter anderem wurde das Verfahren zur Normalisierung der Rohdaten, der angewandten PCR-Analytik und der Berechnung der Trenddynamiken untersucht.<br />Weitere Informationen sind im <a href=\"https://www.ptka.kit.edu/img/Projektblatt_ESI-CorA.pdf\">ESI-CorA Projektblatt</a> des Karlsruher Instituts für Technologie (KIT) zu finden.</p>" ;
+                  dct:issued "2024-03-11T16:13:29+01:00"^^xsd:dateTime ;
+                  dct:modified "2024-03-11T16:13:29+01:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "ESI-CorA: SARS-CoV-2-Abwassersurveillance" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/ESI-CorA_SARS-CoV-2-Abwassersurveillance>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "COVID-19","SARS-CoV-2","Abwasserbasierte epidemiologische Überwachung","Wastewater-Based Epidemiological Monitoring","Epidemiologie","Gesundheitsberichterstattung","Public health surveillance","Epidemiology","Deutschland","Germany","Open Data","Offene Daten","RKI";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut, Fachgebiet 32 (2024): ESI-CorA: SARS-CoV-2-Abwassersurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.10781653" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Github - ESI-CorA: SARS-CoV-2-Abwassersurveillance" ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance>;
+                    dct:modified "2024-03-11T16:13:29+01:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut, Fachgebiet 32 (2024): ESI-CorA: SARS-CoV-2-Abwassersurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.10781653" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Zenodo - ESI-CorA: SARS-CoV-2-Abwassersurveillance" ;
+                    dcat:accessURL <https://zenodo.org/record/10781653>;
+                    dct:modified "2024-03-11T16:13:29+01:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] ESI-CorA:_SARS-CoV-2-Abwassersurveillance.pdf" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut, Fachgebiet 32 (2024): ESI-CorA: SARS-CoV-2-Abwassersurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.10781653" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'ESI-CorA: SARS-CoV-2-Abwassersurveillance' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://zenodo.org/record/10781653/files/%5BDokumentation%5D_ESI-CorA_SARS-CoV-2-Abwassersurveillance.pdf>;
+                    dct:modified "2024-03-11T16:13:29+01:00"^^xsd:dateTime;
+                  ].
