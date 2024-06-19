@@ -1,0 +1,68 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <https://zenodo.org/record/10608926> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Person; foaf:name "Michael Bosnjak"; foaf:account <http://orcid.org/0000-0002-1431-8461>; ],[ a foaf:Person; foaf:name "Stefan Dahm"; foaf:account <http://orcid.org/0000-0002-5578-7133>; ],[ a foaf:Person; foaf:name "Ronny Kuhnert"; foaf:account <http://orcid.org/0000-0001-6617-8475>; ],[ a foaf:Person; foaf:name "Dennis Weihrauch" ],[ a foaf:Person; foaf:name "Angelika Schaffrath Rosario"; foaf:account <http://orcid.org/0000-0001-7777-8070>; ],[ a foaf:Person; foaf:name "Julia Hurraß"; foaf:account <http://orcid.org/0000-0002-9512-9338>; ],[ a foaf:Person; foaf:name "Patrik Schmich" ],[ a foaf:Person; foaf:name "Lothar  Wieler"; foaf:account <http://orcid.org/0000-0003-4365-3717>; ];
+                  dct:description "<p>The methods and results of the publication &quot;COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches&quot; are described in more detail in this appendix. The R-syntax for the calculation is provided, as well as a pseudo data set with which the syntax can also be tested.</p>" ;
+                  dct:issued "2024-06-19T13:33:18+02:00"^^xsd:dateTime ;
+                  dct:modified "2024-06-19T13:33:18+02:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/Appendix_Potential_COVID-19_test_fraud_detection>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "COVID-19","COVID-19 Testing","Fraud Detection ","Statistical Analysis","Open Source","Open Data","Germany","RKI";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Bosnjak, Michael et. al. (2024): Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches, Berlin: Zenodo. DOI:10.5281/zenodo.12168750" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Github - Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/Appendix_Potential_COVID-19_test_fraud_detection>;
+                    dct:modified "2024-06-19T13:33:18+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Bosnjak, Michael et. al. (2024): Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches, Berlin: Zenodo. DOI:10.5281/zenodo.12168750" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Zenodo - Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches" ;
+                    dcat:accessURL <https://zenodo.org/record/10608926>;
+                    dct:modified "2024-06-19T13:33:18+02:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] Appendix_-_Potential_COVID-19_test_fraud_detection:_Findings_from_a_pilot_study_comparing_conventional_and_statistical_approaches.pdf" ;
+                    dcatde:licenseAttributionByText "Bosnjak, Michael et. al. (2024): Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches, Berlin: Zenodo. DOI:10.5281/zenodo.12168750" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Appendix - Potential COVID-19 test fraud detection: Findings from a pilot study comparing conventional and statistical approaches' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://zenodo.org/record/10608926/files/%5BDokumentation%5D_Appendix_Potential_COVID-19_test_fraud_detection.pdf>;
+                    dct:modified "2024-06-19T13:33:18+02:00"^^xsd:dateTime;
+                  ].
