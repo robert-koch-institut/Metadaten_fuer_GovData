@@ -1,6 +1,7 @@
 name: merge-turtle-files
 run-name: Merging TTLs
 on:
+  workflow_dispatch:
   schedule:
     - cron: '00 21 */1 * *'
     
