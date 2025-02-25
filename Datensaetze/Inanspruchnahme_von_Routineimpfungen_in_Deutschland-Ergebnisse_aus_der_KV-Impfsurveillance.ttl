@@ -9,10 +9,10 @@
               <https://zenodo.org/record/10221306> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
-                  dcatde:contributor [ a foaf:Person; foaf:name "Thorsten Rieck"; foaf:account <http://orcid.org/0000-0002-8799-8744>; ],[ a foaf:Person; foaf:name "Marcel Feig" ],[ a foaf:Person; foaf:name "Lisa Branke" ],[ a foaf:Person; foaf:name "Annika Steffen"; foaf:account <http://orcid.org/0000-0003-4072-9245>; ];
+                  dcatde:contributor [ a foaf:Person; foaf:name "Thorsten Rieck"; foaf:account <http://orcid.org/0000-0002-8799-8744>; ],[ a foaf:Person; foaf:name "Matthäus Lottes"; foaf:account <http://orcid.org/https://orcid.org/0000-0003-3467-7645>; ],[ a foaf:Person; foaf:name "Marcel Feig" ],[ a foaf:Person; foaf:name "Lisa Branke" ],[ a foaf:Person; foaf:name "Annika Steffen"; foaf:account <http://orcid.org/0000-0003-4072-9245>; ];
                   dct:description "<p>Dem Robert Koch-Institut (RKI) obliegt die Aufgabe, Daten zur Inanspruchnahme von Schutzimpfungen in der Bevölkerung in Deutschland zu erheben, aufzubereiten und national wie international zu berichten.<br />Die wichtigste Datenquelle zur Berechnung von Impfquoten stellen die vertragsärztlichen Abrechnungsdaten dar, die von den Kassenärztlichen Vereinigungen (KVen) im Rahmen der „KV-Impfsurveillance“ (KVIS) an das RKI übermittelt werden. Begonnen als Gemeinschaftsprojekt mit den KVen im Jahr 2004, ist die KVIS seit dem Jahr 2020 im Infektionsschutzgesetz (IfSG) gesetzlich verankert (<a href=\"https://www.gesetze-im-internet.de/ifsg/__13.html\">§13 (5) IfSG</a>).<br />Neben der jährlichen Berichterstattung zu aktuellen Impfquoten im <a href=\"https://www.rki.de/DE/Content/Infekt/EpidBull/epid_bull_node.html\">Epidemiologischen Bulletin</a>, ergänzt <a href=\"https://www.rki.de/vacmap\">VacMap</a> als interaktives Dashboard die Kommunikation der Impfquoten in Deutschland und ermöglicht die Nachnutzung der Daten durch Akteure der Impfprävention. Anhand der Darstellung der Impfquoten nach Altersgruppen, im Zeitverlauf und auf regionaler Ebene können Defizite in der Umsetzung der Impfempfehlungen identifiziert und in der Folge zielgruppenspezifisch adressiert werden.</p>" ;
-                  dct:issued "2025-01-23T17:33:50+01:00"^^xsd:dateTime ;
-                  dct:modified "2025-01-21T10:40:00+01:00"^^xsd:dateTime ;
+                  dct:issued "2025-02-25T11:56:31+01:00"^^xsd:dateTime ;
+                  dct:modified "2025-02-25T11:56:53+01:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Rieck, Thorsten et. al. (2025): Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.14727156" ;
+                    dcatde:licenseAttributionByText "Rieck, Thorsten et. al. (2025): Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.14923216" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance>;
-                    dct:modified "2025-01-23T17:33:50+01:00"^^xsd:dateTime;
+                    dct:modified "2025-02-25T11:56:31+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Rieck, Thorsten et. al. (2025): Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.14727156" ;
+                    dcatde:licenseAttributionByText "Rieck, Thorsten et. al. (2025): Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.14923216" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance" ;
                     dcat:accessURL <https://zenodo.org/record/10221306>;
-                    dct:modified "2025-01-23T17:33:50+01:00"^^xsd:dateTime;
+                    dct:modified "2025-02-25T11:56:31+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] Inanspruchnahme_von_Routineimpfungen_in_Deutschland_-_Ergebnisse_aus_der_KV-Impfsurveillance.pdf" ;
-                    dcatde:licenseAttributionByText "Rieck, Thorsten et. al. (2025): Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.14727156" ;
+                    dcatde:licenseAttributionByText "Rieck, Thorsten et. al. (2025): Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance, Berlin: Zenodo. DOI:10.5281/zenodo.14923216" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Inanspruchnahme von Routineimpfungen in Deutschland - Ergebnisse aus der KV-Impfsurveillance' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/10221306/files/%5BDokumentation%5D_Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance.pdf>;
-                    dct:modified "2025-01-23T17:33:50+01:00"^^xsd:dateTime;
+                    dct:modified "2025-02-25T11:56:31+01:00"^^xsd:dateTime;
                   ].
