@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Kristin Tolksdorf"; foaf:account <http://orcid.org/0000-0002-8712-6399>; ],[ a foaf:Person; foaf:name "Luise Goerlitz"; foaf:account <http://orcid.org/0009-0004-3024-6797>; ],[ a foaf:Person; foaf:name "Tamar Gvaladze"; foaf:account <http://orcid.org/0009-0007-4442-9633>; ],[ a foaf:Person; foaf:name "Walter Haas"; foaf:account <http://orcid.org/0000-0003-3413-1431>; ],[ a foaf:Person; foaf:name "Silke Buda"; foaf:account <http://orcid.org/0000-0003-3448-3357>; ];
                   dct:description "<p>Zur Einschätzung der Krankheitslast schwerer symptomatischer Atemwegsinfektionen im stationären Bereich wird mithilfe von Daten aus der syndromischen Krankenhaussurveillance ICOSARI die Inzidenz der Fälle, die mit einer schweren akuten respiratorischen Infektion (SARI) in ein Krankenhaus zur Behandlung aufgenommen wurden, pro 100.000 Einwohner berechnet. Zeitnahe und valide Daten über die Häufigkeit von SARI im zeitlichen Verlauf und im Kontext zirkulierender Atemwegserreger in der Bevölkerung sind essenziell für die Einschätzung der epidemiologischen Lage und die Entwicklung und Anpassung von Präventionsstrategien.</p>" ;
-                  dct:issued "2025-07-24T09:08:01+02:00"^^xsd:dateTime ;
-                  dct:modified "2025-07-24T09:08:14+02:00"^^xsd:dateTime ;
+                  dct:issued "2025-07-31T09:08:02+02:00"^^xsd:dateTime ;
+                  dct:modified "2025-07-31T09:08:15+02:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Tolksdorf, Kristin et. al. (2025): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.16404146" ;
+                    dcatde:licenseAttributionByText "Tolksdorf, Kristin et. al. (2025): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.16628921" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - SARI-Hospitalisierungsinzidenz" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz>;
-                    dct:modified "2025-07-24T09:08:01+02:00"^^xsd:dateTime;
+                    dct:modified "2025-07-31T09:08:02+02:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Tolksdorf, Kristin et. al. (2025): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.16404146" ;
+                    dcatde:licenseAttributionByText "Tolksdorf, Kristin et. al. (2025): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.16628921" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - SARI-Hospitalisierungsinzidenz" ;
                     dcat:accessURL <https://zenodo.org/record/8382331>;
-                    dct:modified "2025-07-24T09:08:01+02:00"^^xsd:dateTime;
+                    dct:modified "2025-07-31T09:08:02+02:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] SARI-Hospitalisierungsinzidenz.pdf" ;
-                    dcatde:licenseAttributionByText "Tolksdorf, Kristin et. al. (2025): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.16404146" ;
+                    dcatde:licenseAttributionByText "Tolksdorf, Kristin et. al. (2025): SARI-Hospitalisierungsinzidenz, Berlin: Zenodo. DOI:10.5281/zenodo.16628921" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARI-Hospitalisierungsinzidenz' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/8382331/files/%5BDokumentation%5D_SARI-Hospitalisierungsinzidenz.pdf>;
-                    dct:modified "2025-07-24T09:08:01+02:00"^^xsd:dateTime;
+                    dct:modified "2025-07-31T09:08:02+02:00"^^xsd:dateTime;
                   ].
