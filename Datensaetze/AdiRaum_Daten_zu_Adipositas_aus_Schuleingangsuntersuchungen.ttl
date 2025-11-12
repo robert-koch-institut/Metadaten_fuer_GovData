@@ -1,0 +1,68 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <https://zenodo.org/record/15095485> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Organization; foaf:name "Robert Koch-Institut" ];
+                  dct:description "<p>Der Datensatz &quot;AdiRaum – Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen&quot; des Robert Koch-Instituts beinhaltet Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen, die im Rahmen der Projekte AdiRaum und AdiRaum 2.0 aus den Ländern zusammengeführt wurden. Die Daten sind auf Kreisebene aggregiert und wurden mit Indikatoren zu Soziodemografie und Siedlungsstruktur verknüpft. Sie stellen die Datengrundlage des AdiRaum-Dashboards dar und werden für die Gesundheitsberichterstattung des Bundes genutzt.</p>" ;
+                  dct:issued "2025-11-12T12:46:57+01:00"^^xsd:dateTime ;
+                  dct:modified "2025-11-12T12:46:57+01:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/AdiRaum_Daten_zu_Adipositas_aus_Schuleingangsuntersuchungen>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "Open Data","Offene Daten","Adipositas","Körpergewicht","Öffentliche Berichterstattung über Gesundheitsdaten","Übergewicht","RKI","Deutschland","Obesity","Overweight","Body Weight","Public Reporting of Healthcare Data","Schuleingangsuntersuchung","Einschulungsuntersuchung","School entrance examination","Vorschulkinder","Preschool children","Einflussfaktoren","Influencing factors","Small-Area Analysis","kleinräumige Datenanalyse","sozioökonomische Deprivation","Socioeconomic deprivation","Indikatoren","indicators","Kindergesundheit","Child health","Gesundheitsmonitoring","Public Health Surveillance","Gesundheitsberichterstattung","Health Reporting","AdiRaum","Dashboard","Germany";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen, Berlin: Zenodo. DOI:10.5281/zenodo.15095485" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Github - AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen" ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/AdiRaum_Daten_zu_Adipositas_aus_Schuleingangsuntersuchungen>;
+                    dct:modified "2025-11-12T12:46:57+01:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen, Berlin: Zenodo. DOI:10.5281/zenodo.15095485" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Zenodo - AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen" ;
+                    dcat:accessURL <https://zenodo.org/record/15095485>;
+                    dct:modified "2025-11-12T12:46:57+01:00"^^xsd:dateTime;
+                  ],
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] AdiRaum_-_Daten_zu_Übergewicht_und_Adipositas_aus_Schuleingangsuntersuchungen.pdf" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen, Berlin: Zenodo. DOI:10.5281/zenodo.15095485" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'AdiRaum - Daten zu Übergewicht und Adipositas aus Schuleingangsuntersuchungen' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://zenodo.org/record/15095485/files/%5BDokumentation%5D_AdiRaum_Daten_zu_Adipositas_aus_Schuleingangsuntersuchungen.pdf>;
+                    dct:modified "2025-11-12T12:46:57+01:00"^^xsd:dateTime;
+                  ].
