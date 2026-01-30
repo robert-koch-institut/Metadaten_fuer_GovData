@@ -1,0 +1,125 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcatde: <http://dcat-ap.de/def/dcatde/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://zenodo.org/record/18349470>
+    a dcat:Dataset ;
+    dcatde:contributor
+        <https://zenodo.org/record/18349470#author-1> ,
+        <https://zenodo.org/record/18349470#author-2> ,
+        <https://zenodo.org/record/18349470#author-3> ,
+        <https://zenodo.org/record/18349470#author-4> ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+    dcatde:maintainer
+        [
+            a foaf:Agent ;
+            foaf:mbox "opendata@rki.de" ;
+            foaf:name "Robert Koch-Institut | Open Data Team" ;
+        ] ;
+    dct:description "The dataset \"Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes\" provides the raw images and data for the manuscript \"On the role of cell chaining in the attenuation of a Listeria monocytogenes divIVA mutant\" (https://doi.org/10.64898/2026.01.05.697648)." ;
+    dct:issued "2026-01-26T18:04:13+01:00"^^xsd:dateTime ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:modified "2026-01-26T18:04:13+01:00"^^xsd:dateTime ;
+    dct:publisher
+        [
+            a foaf:Organization ;
+            foaf:mbox "opendata@rki.de" ;
+            foaf:name "Robert Koch-Institut" ;
+        ] ;
+    dct:title "Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes" ;
+    dcat:contactPoint
+        [
+            a vcard:Organization ;
+            vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+            vcard:hasCountryName "Deutschland" ;
+            vcard:hasEmail "opendata@rki.de" ;
+            vcard:hasLocality "Berlin" ;
+            vcard:hasPostalCode "13353" ;
+            vcard:hasStreetAddress "Nordufer 20" ;
+        ] ;
+    dcat:distribution
+        <https://zenodo.org/record/18349470#dist-01-github> ,
+        <https://zenodo.org/record/18349470#dist-02-zenodo> ,
+        <https://zenodo.org/record/18349470#dist-03-zenodo-documentation> ;
+    dcat:keyword
+        "Deutschland" ,
+        "Epidemiologie" ,
+        "Epidemiology" ,
+        "Germany" ,
+        "Gesundheitsberichterstattung" ,
+        "Listeria monocytogenes" ,
+        "Microscopy" ,
+        "Mikroskopie" ,
+        "Offene Daten" ,
+        "Open Data" ,
+        "Public health surveillance" ,
+        "RKI" ;
+    dcat:landingPage <https://robert-koch-institut.github.io/Supplementary_raw_data_-_cell_chaining_in_attenuated_Listeria_monocytogenes_mutants> ;
+    dcat:theme
+        <http://publications.europa.eu/resource/authority/data-theme/HEAL> ,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ,
+        <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+.
+
+<https://zenodo.org/record/18349470#author-1>
+    a foaf:Person ;
+    foaf:account <http://orcid.org/0000-0002-0387-4171> ;
+    foaf:name "Sabrina Wamp" ;
+.
+
+<https://zenodo.org/record/18349470#author-2>
+    a foaf:Person ;
+    foaf:name "Gudrun Holland" ;
+.
+
+<https://zenodo.org/record/18349470#author-3>
+    a foaf:Person ;
+    foaf:account <http://orcid.org/0000-0001-5337-3829> ;
+    foaf:name "Jeanine Rismondo" ;
+.
+
+<https://zenodo.org/record/18349470#author-4>
+    a foaf:Person ;
+    foaf:account <http://orcid.org/0000-0002-5575-8973> ;
+    foaf:name "Sven Halbedel" ;
+.
+
+<https://zenodo.org/record/18349470#dist-01-github>
+    a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Wamp, Sabrina et. al. (2026): Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes, Berlin: Zenodo. DOI:10.5281/zenodo.18349470" ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
+    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:modified "2026-01-26T18:04:13+01:00"^^xsd:dateTime ;
+    dct:title "Github - Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes" ;
+    dcat:accessURL <https://github.com/robert-koch-institut/Supplementary_raw_data_-_cell_chaining_in_attenuated_Listeria_monocytogenes_mutants> ;
+.
+
+<https://zenodo.org/record/18349470#dist-02-zenodo>
+    a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Wamp, Sabrina et. al. (2026): Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes, Berlin: Zenodo. DOI:10.5281/zenodo.18349470" ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
+    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:modified "2026-01-26T18:04:13+01:00"^^xsd:dateTime ;
+    dct:title "Zenodo - Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes" ;
+    dcat:accessURL <https://zenodo.org/record/18349470> ;
+.
+
+<https://zenodo.org/record/18349470#dist-03-zenodo-documentation>
+    a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Wamp, Sabrina et. al. (2026): Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes, Berlin: Zenodo. DOI:10.5281/zenodo.18349470" ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Supplementary raw data on cell chaining in an attenuated Listeria monocytogenes' bereitgestellten Daten" ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:modified "2026-01-26T18:04:13+01:00"^^xsd:dateTime ;
+    dct:title "[Dokumentation] Supplementary_raw_data_on_cell_chaining_in_an_attenuated_Listeria_monocytogenes.pdf" ;
+    dcat:accessURL <https://zenodo.org/record/18349470/files/%5BDokumentation%5D_Supplementary_raw_data_-_cell_chaining_in_attenuated_Listeria_monocytogenes_mutants.pdf> ;
+.
