@@ -16,7 +16,7 @@ jobs:
       - name: find Namespaces in a random ttl file and add it to a new merged ttl file
         run: find ./Datensaetze/*.ttl -type f | head -n 1 | xargs grep -h '^PREFIX ' > ${{ env.destination_file }}
       - name: Merge content of all ttl files and append it to destination file
-        run: find ./Datensaetze/*.ttl | xargs grep -vh '^PREFIX ' >> ${{ env.destination_file }}
+        run: find ./Datensaetze/*.ttl | xargs grep -Ev '^PREFIX |@prefix'  >> ${{ env.destination_file }}
       - name: Add and Commit Changes
         uses: EndBug/add-and-commit@v9.0.1
         with:
