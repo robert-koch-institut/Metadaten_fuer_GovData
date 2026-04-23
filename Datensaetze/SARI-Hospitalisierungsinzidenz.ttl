@@ -5,15 +5,15 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://zenodo.org/record/19603677>
+<https://zenodo.org/record/19704406>
     a dcat:Dataset ;
     dcatde:contributor
-        <https://zenodo.org/record/19603677#author-1> ,
-        <https://zenodo.org/record/19603677#author-2> ,
-        <https://zenodo.org/record/19603677#author-3> ,
-        <https://zenodo.org/record/19603677#author-4> ,
-        <https://zenodo.org/record/19603677#author-5> ,
-        <https://zenodo.org/record/19603677#author-6> ;
+        <https://zenodo.org/record/19704406#author-1> ,
+        <https://zenodo.org/record/19704406#author-2> ,
+        <https://zenodo.org/record/19704406#author-3> ,
+        <https://zenodo.org/record/19704406#author-4> ,
+        <https://zenodo.org/record/19704406#author-5> ,
+        <https://zenodo.org/record/19704406#author-6> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dcatde:maintainer
         [
@@ -22,9 +22,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             foaf:name "Robert Koch-Institut | Open Data Team" ;
         ] ;
     dct:description "<p>Im Datensatz \"SARI-Hospitalisierungsinzidenz\" des Robert Koch-Instituts werden die wöchentlichen Inzidenzen schwerer akuter respiratorischer Infektionen (SARI) auf Bundesebene in Deutschland bereitgestellt. Die Daten stammen aus der syndromischen Krankenhaussurveillance ICOSARI, die auf ICD-10-Diagnosecodes aus etwa 70 Sentinelkliniken basiert. Der Datensatz umfasst Hospitalisierungsinzidenzen pro 100.000 Einwohner, aufgeschlüsselt nach Altersgruppen, Saison und Kalenderwoche. Neben der Gesamtheit aller SARI-Fälle werden auch Fälle mit zusätzlicher COVID-19-, Influenza- oder RSV-Diagnose separat erfasst. Die Surveillance liefert entscheidende Informationen zur Krankheitslast akuter respiratorischer Erkrankungen und dient als Grundlage für epidemiologische Bewertungen und Empfehlungen für gesundheitspolitische Maßnahmen.</p>" ;
-    dct:issued "2026-04-16T09:08:19+02:00"^^xsd:dateTime ;
+    dct:issued "2026-04-23T11:21:13+02:00"^^xsd:dateTime ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-16T09:08:19+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-23T11:21:13+02:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -43,9 +43,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/19603677#dist-01-github> ,
-        <https://zenodo.org/record/19603677#dist-02-zenodo> ,
-        <https://zenodo.org/record/19603677#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/19704406#dist-01-github> ,
+        <https://zenodo.org/record/19704406#dist-02-zenodo> ,
+        <https://zenodo.org/record/19704406#dist-03-zenodo-documentation> ;
     dcat:keyword
         "Atemwegsinfektionen" ,
         "Deutschland" ,
@@ -84,74 +84,74 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/19603677#author-1>
+<https://zenodo.org/record/19704406#author-1>
     a foaf:Person ;
     foaf:account <https://orcid.org/0000-0002-8712-6399> ;
     foaf:name "Kristin Tolksdorf" ;
 .
 
-<https://zenodo.org/record/19603677#author-2>
+<https://zenodo.org/record/19704406#author-2>
     a foaf:Person ;
     foaf:account <https://orcid.org/0009-0004-3024-6797> ;
     foaf:name "Luise Goerlitz" ;
 .
 
-<https://zenodo.org/record/19603677#author-3>
+<https://zenodo.org/record/19704406#author-3>
     a foaf:Person ;
     foaf:name "Doreen Staat" ;
 .
 
-<https://zenodo.org/record/19603677#author-4>
+<https://zenodo.org/record/19704406#author-4>
     a foaf:Person ;
     foaf:account <https://orcid.org/0009-0007-4442-9633> ;
     foaf:name "Tamar Gvaladze" ;
 .
 
-<https://zenodo.org/record/19603677#author-5>
+<https://zenodo.org/record/19704406#author-5>
     a foaf:Person ;
     foaf:account <https://orcid.org/0000-0003-3413-1431> ;
     foaf:name "Walter Haas" ;
 .
 
-<https://zenodo.org/record/19603677#author-6>
+<https://zenodo.org/record/19704406#author-6>
     a foaf:Person ;
     foaf:account <https://orcid.org/0000-0003-3448-3357> ;
     foaf:name "Silke Buda" ;
 .
 
-<https://zenodo.org/record/19603677#dist-01-github>
+<https://zenodo.org/record/19704406#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19603677" ;
+    dcatde:licenseAttributionByText "Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19704406" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-16T09:08:19+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-23T11:21:13+02:00"^^xsd:dateTime ;
     dct:title "Github - SARI-Hospitalisierungsinzidenz" ;
     dcat:accessURL <https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz> ;
 .
 
-<https://zenodo.org/record/19603677#dist-02-zenodo>
+<https://zenodo.org/record/19704406#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19603677" ;
+    dcatde:licenseAttributionByText "Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19704406" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-16T09:08:19+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-23T11:21:13+02:00"^^xsd:dateTime ;
     dct:title "Zenodo - SARI-Hospitalisierungsinzidenz" ;
-    dcat:accessURL <https://zenodo.org/record/19603677> ;
+    dcat:accessURL <https://zenodo.org/record/19704406> ;
 .
 
-<https://zenodo.org/record/19603677#dist-03-zenodo-documentation>
+<https://zenodo.org/record/19704406#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19603677" ;
+    dcatde:licenseAttributionByText "Tolksdorf, K., Goerlitz, L., Staat, D., Gvaladze, T., Haas, W., & Buda, S. (2026). SARI-Hospitalisierungsinzidenz [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19704406" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARI-Hospitalisierungsinzidenz' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-16T09:08:19+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-23T11:21:13+02:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_SARI-Hospitalisierungsinzidenz.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/19603677/files/[Dokumentation]_SARI-Hospitalisierungsinzidenz.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/19704406/files/[Dokumentation]_SARI-Hospitalisierungsinzidenz.pdf> ;
 .
