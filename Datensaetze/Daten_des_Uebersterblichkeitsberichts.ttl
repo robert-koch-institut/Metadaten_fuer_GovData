@@ -5,9 +5,9 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://zenodo.org/record/19692015>
+<https://zenodo.org/record/19880973>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/19692015#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/19880973#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dcatde:maintainer
         [
@@ -16,9 +16,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             foaf:name "Robert Koch-Institut | Open Data Team" ;
         ] ;
     dct:description "<p>Im Datensatz \"Daten des Übersterblichkeitsberichts\" des Robert Koch-Instituts werden wöchentliche Daten zur Übersterblichkeit in Deutschland bereitgestellt. Der Datensatz enthält Angaben zum Wochendatum und zur jeweiligen Gruppe (z. B. Altersgruppen, Geschlecht oder Region). Für jede Gruppe wird die beobachtete Sterbefallzahl den modellbasiert erwarteten Sterbefallzahlen gegenübergestellt. Zur Bewertung von Abweichungen zwischen beobachteter und erwarteter Sterbefallzahl wird der z-Score berechnet, der zur Einordnung einer etwaigen Übersterblichkeit genutzt wird. Der Datensatz dient der kontinuierlichen Überwachung von Sterbefallzahlen in Deutschland und ermöglicht die frühzeitige Erkennung von ungewöhnlich hohen Sterbefallzahlen in den betrachteten Gruppen.</p>" ;
-    dct:issued "2026-04-22T11:00:15+02:00"^^xsd:dateTime ;
+    dct:issued "2026-04-29T11:00:15+02:00"^^xsd:dateTime ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-20T00:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-27T00:00:00+02:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -37,9 +37,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/19692015#dist-01-github> ,
-        <https://zenodo.org/record/19692015#dist-02-zenodo> ,
-        <https://zenodo.org/record/19692015#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/19880973#dist-01-github> ,
+        <https://zenodo.org/record/19880973#dist-02-zenodo> ,
+        <https://zenodo.org/record/19880973#dist-03-zenodo-documentation> ;
     dcat:keyword
         "Deutschland" ,
         "Epidemiologie" ,
@@ -61,44 +61,44 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/19692015#author-1>
+<https://zenodo.org/record/19880973#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/19692015#dist-01-github>
+<https://zenodo.org/record/19880973#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19692015" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19880973" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-22T11:00:15+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-29T11:00:15+02:00"^^xsd:dateTime ;
     dct:title "Github - Daten des Übersterblichkeitsberichts" ;
     dcat:accessURL <https://github.com/robert-koch-institut/Daten_des_Uebersterblichkeitsberichts> ;
 .
 
-<https://zenodo.org/record/19692015#dist-02-zenodo>
+<https://zenodo.org/record/19880973#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19692015" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19880973" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-22T11:00:15+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-29T11:00:15+02:00"^^xsd:dateTime ;
     dct:title "Zenodo - Daten des Übersterblichkeitsberichts" ;
-    dcat:accessURL <https://zenodo.org/record/19692015> ;
+    dcat:accessURL <https://zenodo.org/record/19880973> ;
 .
 
-<https://zenodo.org/record/19692015#dist-03-zenodo-documentation>
+<https://zenodo.org/record/19880973#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19692015" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Daten des Übersterblichkeitsberichts [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19880973" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Daten des Übersterblichkeitsberichts' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-22T11:00:15+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-29T11:00:15+02:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_Daten_des_Uebersterblichkeitsberichts.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/19692015/files/[Dokumentation]_Daten_des_Uebersterblichkeitsberichts.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/19880973/files/[Dokumentation]_Daten_des_Uebersterblichkeitsberichts.pdf> ;
 .
