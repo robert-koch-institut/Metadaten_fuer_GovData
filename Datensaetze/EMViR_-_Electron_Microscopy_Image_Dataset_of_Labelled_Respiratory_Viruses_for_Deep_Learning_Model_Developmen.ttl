@@ -95,6 +95,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
     dct:modified "2025-02-12T15:23:08+00:00"^^xsd:dateTime ;
     dct:title "EMViR_dataset.zip" ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/ZIP> ;
     dcat:accessURL <https://zenodo.org/records/13949331/files/EMViR_dataset.zip> ;
 .
 
@@ -106,5 +107,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
     dct:modified "2025-02-12T15:23:08+00:00"^^xsd:dateTime ;
     dct:title "EMViR_masks_coco.zip" ;
+	dct:format <http://publications.europa.eu/resource/authority/file-type/ZIP> ;
     dcat:accessURL <https://zenodo.org/records/13949331/files/EMViR_masks_coco.zip> ;
 .
