@@ -1,0 +1,110 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcatde: <http://dcat-ap.de/def/dcatde/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://zenodo.org/record/13949330>
+    a dcat:Dataset ;
+    dcatde:contributor
+        <https://zenodo.org/record/13949331#author-1> ,
+		<https://zenodo.org/record/13949331#author-2> ,
+		<https://zenodo.org/record/13949331#author-3> ,
+        <https://zenodo.org/record/13949331#author-4> ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+    dct:description "<p>Diagnostic electron microscopy is a valuable tool for supporting diagnosis and research of pathogenesis of infectious diseases. To advance the application and the development of deep learning in virus detection from electron microscopic images, more publicly available datasets are essential. In this work, we present EMViR, a diverse dataset of over 1,000 negative staining electron microscopic images containing virus particles from the virus families Adenoviridae, Coronaviridae, Orthomyxoviridae, and Paramyxoviridae/Pneumoviridae, which are associated with respiratory diseases, along with their corresponding segmentation masks.</p>\n<p>A detailed description of the EMViR dataset can be found at: <a href=\"https://ieeexplore.ieee.org/document/10980686\" target=\"_blank\" rel=\"noopener\">https://ieeexplore.ieee.org/document/10980686</a></p>" ;
+    dct:issued "2025-02-12T15:23:08+00:00"^^xsd:dateTime ;
+    dct:modified "2025-02-12T15:23:08+00:00"^^xsd:dateTime ;
+    dct:publisher
+        [
+            a foaf:Organization ;
+            foaf:mbox "opendata@rki.de" ;
+            foaf:name "Robert Koch-Institut" ;
+        ] ;
+    dct:title "EMViR - Electron Microscopy Image Dataset of Labelled Respiratory Viruses for Deep Learning Model Development" ;
+    dcat:contactPoint
+        [
+            a vcard:Organization ;
+            vcard:fn "Robert Koch-Institut | Open Data Team" ;
+            vcard:hasCountryName "Deutschland" ;
+            vcard:hasEmail <mailto:opendata@rki.de> ;
+            vcard:hasLocality "Berlin" ;
+            vcard:hasPostalCode "13353" ;
+            vcard:hasStreetAddress "Nordufer 20" ;
+        ] ;
+    dcat:distribution
+        <https://zenodo.org/record/13949331#dist-01> ,
+        <https://zenodo.org/record/13949331#dist-02> ;
+    dcat:keyword
+		"Electron Microscopy",
+		"Scanning Electron Microscopy",
+		"Transmission Electron Microscopy",
+		"Negative Staining Electron Microscopy",
+		"Respiratory Virus",
+		"Adenoviridae",
+		"Coronaviridae",
+		"Orthomyxoviridae",
+		"Paramyxoviridae",
+		"Image Segmentation",
+		"Deep Learning",
+		"Elektronenmikroskopie",
+		"Rasterelektronen-Mikroskopie",
+		"Transmissions-Elektronenmikroskopie",
+		"Respiratorische Viren",
+		"Open Data",
+		"Offene Datan",
+		"Germany",
+		"Deutschland",
+		"RKI" ;
+    dcat:landingPage <https://doi.org/10.5281/zenodo.13949331> ;
+    dcat:theme
+        <http://publications.europa.eu/resource/authority/data-theme/HEAL> ,
+        <http://publications.europa.eu/resource/authority/data-theme/SOCI> ,
+        <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+.
+
+<https://zenodo.org/record/13949331#author-1>
+    a foaf:Person ;
+    foaf:account <https://orcid.org/0009-0009-5437-946X> ;
+    foaf:name "Paula Klimczok" ;
+.
+
+<https://zenodo.org/record/13949331#author-2>
+    a foaf:Person ;
+    foaf:name "Abdul Omar" ;
+.
+
+<https://zenodo.org/record/13949331#author-3>
+    a foaf:Person ;
+    foaf:account <https://orcid.org/0000-0002-6474-9139> ;
+    foaf:name "Michael Laue " ;
+.
+
+<https://zenodo.org/record/13949331#author-4>
+    a foaf:Person ;
+	foaf:account <https://orcid.org/0009-0003-2506-4297>;
+    foaf:name "Nils Körber" ;
+.
+
+<https://zenodo.org/record/13949331#dist-01>
+    a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Klimczok, P., Omar, A., Laue, M., & Körber, N. (2025). EMViR - Electron Microscopy Image Dataset of Labelled Respiratory Viruses for Deep Learning Model Development (2025-02-12)[Data set]. Zenodo. https://doi.org/10.5281/zenodo.13949331" ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:modified "2025-02-12T15:23:08+00:00"^^xsd:dateTime ;
+    dct:title "EMViR_dataset.zip" ;
+    dcat:accessURL <https://zenodo.org/records/13949331/files/EMViR_dataset.zip> ;
+.
+
+<https://zenodo.org/record/13949331#dist-02>
+    a dcat:Distribution ;
+    dcatde:licenseAttributionByText "Klimczok, P., Omar, A., Laue, M., & Körber, N. (2025). EMViR - Electron Microscopy Image Dataset of Labelled Respiratory Viruses for Deep Learning Model Development (2025-02-12) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.13949331" ;
+    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dct:modified "2025-02-12T15:23:08+00:00"^^xsd:dateTime ;
+    dct:title "EMViR_masks_coco.zip" ;
+    dcat:accessURL <https://zenodo.org/records/13949331/files/EMViR_masks_coco.zip> ;
+.
