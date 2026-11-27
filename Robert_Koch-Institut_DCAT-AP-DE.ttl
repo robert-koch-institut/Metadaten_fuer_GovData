@@ -823,13 +823,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:accessURL <https://zenodo.org/record/20154327/files/[Dokumentation]_COVID-19-Faelle_in_Deutschland.pdf> ;
 .
 
-<https://zenodo.org/record/24550928>
+<https://zenodo.org/record/24578814>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/24550928#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/24578814#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description "<p>Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>" ;
-    dct:issued "2026-11-26T07:15:15+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T07:15:15+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T13:28:12+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:28:12+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -848,9 +848,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24550928#dist-01-github> ,
-        <https://zenodo.org/record/24550928#dist-02-zenodo> ,
-        <https://zenodo.org/record/24550928#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24578814#dist-01-github> ,
+        <https://zenodo.org/record/24578814#dist-02-zenodo> ,
+        <https://zenodo.org/record/24578814#dist-03-zenodo-documentation> ;
     dcat:keyword
         "COVID-19" ,
         "Deutschland" ,
@@ -875,46 +875,46 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24550928#author-1>
+<https://zenodo.org/record/24578814#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24550928#dist-01-github>
+<https://zenodo.org/record/24578814#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24550928" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24578814" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:15:15+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:28:12+01:00"^^xsd:dateTime ;
     dct:title "Github - COVID-19-Hospitalisierungen in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/24550928#dist-02-zenodo>
+<https://zenodo.org/record/24578814#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24550928" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24578814" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:15:15+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:28:12+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - COVID-19-Hospitalisierungen in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/24550928> ;
+    dcat:accessURL <https://zenodo.org/record/24578814> ;
 .
 
-<https://zenodo.org/record/24550928#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24578814#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24550928" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24578814" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'COVID-19-Hospitalisierungen in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:15:15+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:28:12+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_COVID-19-Hospitalisierungen_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24550928/files/[Dokumentation]_COVID-19-Hospitalisierungen_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24578814/files/[Dokumentation]_COVID-19-Hospitalisierungen_in_Deutschland.pdf> ;
 .
 
               <https://zenodo.org/record/7809904> a dcat:Dataset ;
@@ -978,13 +978,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     dct:modified "2024-07-02T09:00:02+02:00"^^xsd:dateTime;
                   ].
 
-<https://zenodo.org/record/24551441>
+<https://zenodo.org/record/24579258>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/24551441#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/24579258#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description "<p>Im Datensatz \"COVID-19-Todesfälle in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu COVID-19-bedingten Todesfällen in Deutschland bereitgestellt. Die Datenerhebung erfolgt im Rahmen des Infektionsschutzgesetzes (IfSG). Der Datensatz umfasst aggregierte Todesfallzahlen nach Berichtsdatum, Altersgruppen und Bundesländern und wird ergänzt durch den Fall-Verstorbenen-Anteil. Der Datensatz ermöglicht fundierte Analysen zur Bewertung der Krankheitsschwere und Verbreitung von COVID-19 in Deutschland.</p>" ;
-    dct:issued "2026-11-26T07:30:10+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T07:30:10+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T13:29:01+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:29:01+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -1003,9 +1003,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24551441#dist-01-github> ,
-        <https://zenodo.org/record/24551441#dist-02-zenodo> ,
-        <https://zenodo.org/record/24551441#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24579258#dist-01-github> ,
+        <https://zenodo.org/record/24579258#dist-02-zenodo> ,
+        <https://zenodo.org/record/24579258#dist-03-zenodo-documentation> ;
     dcat:keyword
         "COVID-19" ,
         "Deutschland" ,
@@ -1025,55 +1025,55 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24551441#author-1>
+<https://zenodo.org/record/24579258#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24551441#dist-01-github>
+<https://zenodo.org/record/24579258#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Todesfälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24551441" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Todesfälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24579258" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:30:10+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:29:01+01:00"^^xsd:dateTime ;
     dct:title "Github - COVID-19-Todesfälle in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/COVID-19-Todesfaelle_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/24551441#dist-02-zenodo>
+<https://zenodo.org/record/24579258#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Todesfälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24551441" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Todesfälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24579258" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:30:10+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:29:01+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - COVID-19-Todesfälle in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/24551441> ;
+    dcat:accessURL <https://zenodo.org/record/24579258> ;
 .
 
-<https://zenodo.org/record/24551441#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24579258#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Todesfälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24551441" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Todesfälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24579258" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'COVID-19-Todesfälle in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:30:10+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:29:01+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_COVID-19-Todesfaelle_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24551441/files/[Dokumentation]_COVID-19-Todesfaelle_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24579258/files/[Dokumentation]_COVID-19-Todesfaelle_in_Deutschland.pdf> ;
 .
 
-<https://zenodo.org/record/24551582>
+<https://zenodo.org/record/24579257>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/24551582#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/24579257#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description "<p>Im Datensatz \"7-Tage-Inzidenz der COVID-19-Fälle in Deutschland\" des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).</p>" ;
-    dct:issued "2026-11-26T07:34:15+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T07:34:15+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T13:31:09+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:31:09+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -1092,9 +1092,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24551582#dist-01-github> ,
-        <https://zenodo.org/record/24551582#dist-02-zenodo> ,
-        <https://zenodo.org/record/24551582#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24579257#dist-01-github> ,
+        <https://zenodo.org/record/24579257#dist-02-zenodo> ,
+        <https://zenodo.org/record/24579257#dist-03-zenodo-documentation> ;
     dcat:keyword
         "7-Tage-Inzidenz" ,
         "COVID-19" ,
@@ -1118,46 +1118,46 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24551582#author-1>
+<https://zenodo.org/record/24579257#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24551582#dist-01-github>
+<https://zenodo.org/record/24579257#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24551582" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24579257" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:34:15+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:31:09+01:00"^^xsd:dateTime ;
     dct:title "Github - 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/24551582#dist-02-zenodo>
+<https://zenodo.org/record/24579257#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24551582" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24579257" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:34:15+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:31:09+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/24551582> ;
+    dcat:accessURL <https://zenodo.org/record/24579257> ;
 .
 
-<https://zenodo.org/record/24551582#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24579257#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24551582" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24579257" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz '7-Tage-Inzidenz der COVID-19-Fälle in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:34:15+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:31:09+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_COVID-19_7-Tage-Inzidenz_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24551582/files/[Dokumentation]_COVID-19_7-Tage-Inzidenz_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24579257/files/[Dokumentation]_COVID-19_7-Tage-Inzidenz_in_Deutschland.pdf> ;
 .
 
 <https://zenodo.org/record/24554679>
@@ -1564,15 +1564,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                     dct:modified "2023-08-10T13:32:37+02:00"^^xsd:dateTime;
                   ].
 
-<https://zenodo.org/record/24560277>
+<https://zenodo.org/record/24588393>
     a dcat:Dataset ;
     dcatde:contributor
-        <https://zenodo.org/record/24560277#author-1> ,
-        <https://zenodo.org/record/24560277#author-2> ;
+        <https://zenodo.org/record/24588393#author-1> ,
+        <https://zenodo.org/record/24588393#author-2> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description "<p>Der Datensatz \"Daten der Notaufnahmesurveillance\" wird durch das Robert Koch-Institut und die Betreiber der AKTIN-Infrastruktur und des Notaufnahmeregisters bereitgestellt. Der Datensatz beinhaltet aggregierte Routinedaten aus deutschen Notaufnahmen zur syndromischen Überwachung von akuten Erkrankungen. Dazu zählen grippeähnliche Erkrankungen (ILI), Coronavirus-Erkrankungen (COVID-19), akute respiratorische Erkrankungen (ARE), gastrointestinale Infektionen (GI) und schwere akute respiratorische Infektionen (SARI), sowie hitzeassoziierte Notaunfahmevorstellungen (HEAT). Dabei wird der relative Anteil dieser Erkrankungen an der Gesamtzahl der Notaufnahmevorstellungen sowie die berechneten Erwartungswerte und Prädiktionsintervalle ausgewiesen. Die Daten sind nach Notaufnahmetypen und Altersgruppen aggregiert. Damit bietet der Datensatz eine wertvolle Ressource für die Forschung im Bereich der Notfallmedizin und der Überwachung akuter Gesundheitsereignisse in Deutschland.</p>" ;
-    dct:issued "2026-11-26T13:30:20+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T00:00:00+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T13:30:19+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T00:00:00+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -1591,9 +1591,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24560277#dist-01-github> ,
-        <https://zenodo.org/record/24560277#dist-02-zenodo> ,
-        <https://zenodo.org/record/24560277#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24588393#dist-01-github> ,
+        <https://zenodo.org/record/24588393#dist-02-zenodo> ,
+        <https://zenodo.org/record/24588393#dist-03-zenodo-documentation> ;
     dcat:keyword
         "AKTIN" ,
         "Acute Disease" ,
@@ -1634,51 +1634,51 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24560277#author-1>
+<https://zenodo.org/record/24588393#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24560277#author-2>
+<https://zenodo.org/record/24588393#author-2>
     a foaf:Organization ;
     foaf:name "AKTIN-Infrastruktur und das Notaufnahmeregister" ;
 .
 
-<https://zenodo.org/record/24560277#dist-01-github>
+<https://zenodo.org/record/24588393#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut, & AKTIN-Infrastruktur und das Notaufnahmeregister. (2026). Daten der Notaufnahmesurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24560277" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut, & AKTIN-Infrastruktur und das Notaufnahmeregister. (2026). Daten der Notaufnahmesurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24588393" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T13:30:20+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:30:19+01:00"^^xsd:dateTime ;
     dct:title "Github - Daten der Notaufnahmesurveillance" ;
     dcat:accessURL <https://github.com/robert-koch-institut/Daten_der_Notaufnahmesurveillance> ;
 .
 
-<https://zenodo.org/record/24560277#dist-02-zenodo>
+<https://zenodo.org/record/24588393#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut, & AKTIN-Infrastruktur und das Notaufnahmeregister. (2026). Daten der Notaufnahmesurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24560277" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut, & AKTIN-Infrastruktur und das Notaufnahmeregister. (2026). Daten der Notaufnahmesurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24588393" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T13:30:20+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:30:19+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - Daten der Notaufnahmesurveillance" ;
-    dcat:accessURL <https://zenodo.org/record/24560277> ;
+    dcat:accessURL <https://zenodo.org/record/24588393> ;
 .
 
-<https://zenodo.org/record/24560277#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24588393#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut, & AKTIN-Infrastruktur und das Notaufnahmeregister. (2026). Daten der Notaufnahmesurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24560277" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut, & AKTIN-Infrastruktur und das Notaufnahmeregister. (2026). Daten der Notaufnahmesurveillance [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24588393" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Daten der Notaufnahmesurveillance' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T13:30:20+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:30:19+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_Daten_der_Notaufnahmesurveillance.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24560277/files/[Dokumentation]_Daten_der_Notaufnahmesurveillance.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24588393/files/[Dokumentation]_Daten_der_Notaufnahmesurveillance.pdf> ;
 .
 
 <https://zenodo.org/record/24528183>
@@ -2972,14 +2972,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:accessURL <https://zenodo.org/record/24533275/files/[Dokumentation]_Intensivkapazitaeten_und_COVID-19-Intensivbettenbelegung_in_Deutschland.pdf> ;
 .
 
-<https://zenodo.org/record/24564380>
+<https://zenodo.org/record/24590081>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/24564380#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/24590081#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description """<p>Der Datensatz "Intensivkapazitäten und Intensivbettenbelegung in Deutschland" des Robert Koch-Instituts dokumentiert seit April 2020 die tägliche intensivmedizinische Versorgungslage in Deutschland. Basierend auf Meldungen aller intensivbettenführenden Akutkrankenhäuser in Deutschland erfasst das DIVI-Intensivregister Echtzeitdaten zu betreibbaren und belegten Intensivbetten, zu freien invasiven Beatmungskapazitäten und zur Betriebssituation im Rahmen der Akutversorgung. Die Erhebung differenziert nach Behandlungsschwerpunkt (Erwachsene, Kinder) und Regionen. Die Daten stehen aggregiert auf Bundes- und Landesebene zur Verfügung. Damit dient der Datensatz als Grundlage für die Überwachung und Koordination von Behandlungskapazitäten, sowie für politische Entscheidungsprozesse in Krisenzeiten und darüber hinaus.</p>
 <p>Detailliertere, bislang COVID-19-spezifische Kennzahlen (u. a. COVID-19-Fallzahlen, Altersstruktur, Versorgungsstufe, Versorgungsart) sowie die Aggregation auf Landkreisebene, die in früheren Versionen dieses Datensatzes veröffentlicht wurden, werden seit der Umstellung nicht mehr fortlaufend bereitgestellt. Die archivierten historischen Daten stehen weiterhin zur Verfügung.</p>""" ;
-    dct:issued "2026-11-26T16:14:47+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T16:14:47+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T14:30:11+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T14:30:11+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -2998,9 +2998,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24564380#dist-01-github> ,
-        <https://zenodo.org/record/24564380#dist-02-zenodo> ,
-        <https://zenodo.org/record/24564380#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24590081#dist-01-github> ,
+        <https://zenodo.org/record/24590081#dist-02-zenodo> ,
+        <https://zenodo.org/record/24590081#dist-03-zenodo-documentation> ;
     dcat:keyword
         "Beatmung, künstliche" ,
         "Bed Occupancy" ,
@@ -3031,55 +3031,55 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24564380#author-1>
+<https://zenodo.org/record/24590081#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24564380#dist-01-github>
+<https://zenodo.org/record/24590081#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Intensivkapazitäten und Intensivbettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24564380" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Intensivkapazitäten und Intensivbettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24590081" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T16:14:47+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T14:30:11+01:00"^^xsd:dateTime ;
     dct:title "Github - Intensivkapazitäten und Intensivbettenbelegung in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/Intensivkapazitaeten_und_Intensivbettenbelegung_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/24564380#dist-02-zenodo>
+<https://zenodo.org/record/24590081#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Intensivkapazitäten und Intensivbettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24564380" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Intensivkapazitäten und Intensivbettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24590081" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T16:14:47+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T14:30:11+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - Intensivkapazitäten und Intensivbettenbelegung in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/24564380> ;
+    dcat:accessURL <https://zenodo.org/record/24590081> ;
 .
 
-<https://zenodo.org/record/24564380#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24590081#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Intensivkapazitäten und Intensivbettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24564380" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Intensivkapazitäten und Intensivbettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24590081" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Intensivkapazitäten und Intensivbettenbelegung in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T16:14:47+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T14:30:11+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_Intensivkapazitaeten_und_Intensivbettenbelegung_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24564380/files/[Dokumentation]_Intensivkapazitaeten_und_Intensivbettenbelegung_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24590081/files/[Dokumentation]_Intensivkapazitaeten_und_Intensivbettenbelegung_in_Deutschland.pdf> ;
 .
 
-<https://zenodo.org/record/24531753>
+<https://zenodo.org/record/24587603>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/24531753#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/24587603#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description "<p>Im Datensatz \"Krankenhaus-Bettenbelegung in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zur Krankenhausbettenbelegung basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Der Datensatz umfasst die Anzahl der betreibbaren, der belegten sowie der verfügbaren Betten auf Normalstationen für Erwachsene und Kinder deutschlandweit und auf Ebene der Bundesländer. Zusätzlich wird der Anteil der belegten sowie der verfügbaren Betten an den betreibbaren Betten bereitgestellt. Ziel ist es, frühzeitig eine Überlastung auf Normalstationen in deutschen Krankenhäusern auf Stadt-, Kreis- und Landesebene zu erkennen und gegensteuern zu können.</p>" ;
-    dct:issued "2026-11-26T16:16:21+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T16:16:21+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T13:00:13+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:00:13+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -3098,9 +3098,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24531753#dist-01-github> ,
-        <https://zenodo.org/record/24531753#dist-02-zenodo> ,
-        <https://zenodo.org/record/24531753#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24587603#dist-01-github> ,
+        <https://zenodo.org/record/24587603#dist-02-zenodo> ,
+        <https://zenodo.org/record/24587603#dist-03-zenodo-documentation> ;
     dcat:keyword
         "Deutschland" ,
         "Epidemiologie" ,
@@ -3120,46 +3120,46 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24531753#author-1>
+<https://zenodo.org/record/24587603#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24531753#dist-01-github>
+<https://zenodo.org/record/24587603#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24531753" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24587603" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T16:16:21+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:00:13+01:00"^^xsd:dateTime ;
     dct:title "Github - Krankenhaus-Bettenbelegung in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/Krankenhaus-Bettenbelegung_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/24531753#dist-02-zenodo>
+<https://zenodo.org/record/24587603#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24531753" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24587603" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T16:16:21+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:00:13+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - Krankenhaus-Bettenbelegung in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/24531753> ;
+    dcat:accessURL <https://zenodo.org/record/24587603> ;
 .
 
-<https://zenodo.org/record/24531753#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24587603#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24531753" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). Krankenhaus-Bettenbelegung in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24587603" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Krankenhaus-Bettenbelegung in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T16:16:21+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T13:00:13+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_Krankenhaus-Bettenbelegung_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24531753/files/[Dokumentation]_Krankenhaus-Bettenbelegung_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24587603/files/[Dokumentation]_Krankenhaus-Bettenbelegung_in_Deutschland.pdf> ;
 .
 
               <https://zenodo.org/record/7043025> a dcat:Dataset ;
@@ -3521,13 +3521,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcat:accessURL <https://zenodo.org/record/24553470/files/[Dokumentation]_SARI-Hospitalisierungsinzidenz.pdf> ;
 .
 
-<https://zenodo.org/record/24550710>
+<https://zenodo.org/record/24578531>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/24550710#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/24578531#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dct:description "<p>Im Datensatz \"SARS-CoV-2 Infektionen in Deutschland\" des Robert Koch-Instituts werden die Daten basierend auf Meldungen zu SARS-CoV-2 Infektionen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Darin enthalten sind Informationen auf Landkreisebene zu bestätigten Infektionen, Todesfällen und Genesungen, differenziert nach Altersgruppen und Geschlecht. Diese Daten dienen als Grundlage für epidemiologische Bewertungen und gesundheitspolitische Maßnahmen.</p>" ;
-    dct:issued "2026-11-26T07:02:41+01:00"^^xsd:dateTime ;
-    dct:modified "2026-11-26T07:02:41+01:00"^^xsd:dateTime ;
+    dct:issued "2026-11-27T07:02:45+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T07:02:45+01:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -3546,9 +3546,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/24550710#dist-01-github> ,
-        <https://zenodo.org/record/24550710#dist-02-zenodo> ,
-        <https://zenodo.org/record/24550710#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/24578531#dist-01-github> ,
+        <https://zenodo.org/record/24578531#dist-02-zenodo> ,
+        <https://zenodo.org/record/24578531#dist-03-zenodo-documentation> ;
     dcat:keyword
         "COVID-19" ,
         "Deutschland" ,
@@ -3571,46 +3571,46 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/24550710#author-1>
+<https://zenodo.org/record/24578531#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/24550710#dist-01-github>
+<https://zenodo.org/record/24578531#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24550710" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24578531" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:02:41+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T07:02:45+01:00"^^xsd:dateTime ;
     dct:title "Github - SARS-CoV-2 Infektionen in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/24550710#dist-02-zenodo>
+<https://zenodo.org/record/24578531#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24550710" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24578531" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:02:41+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T07:02:45+01:00"^^xsd:dateTime ;
     dct:title "Zenodo - SARS-CoV-2 Infektionen in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/24550710> ;
+    dcat:accessURL <https://zenodo.org/record/24578531> ;
 .
 
-<https://zenodo.org/record/24550710#dist-03-zenodo-documentation>
+<https://zenodo.org/record/24578531#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24550710" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24578531" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARS-CoV-2 Infektionen in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-11-26T07:02:41+01:00"^^xsd:dateTime ;
+    dct:modified "2026-11-27T07:02:45+01:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_SARS-CoV-2-Infektionen_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/24550710/files/[Dokumentation]_SARS-CoV-2-Infektionen_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/24578531/files/[Dokumentation]_SARS-CoV-2-Infektionen_in_Deutschland.pdf> ;
 .
 
               <https://zenodo.org/record/7916799> a dcat:Dataset ;
